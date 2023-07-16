@@ -1,0 +1,435 @@
+/*
+-   website 6 "Employeement"
+-   Designed & Developed by Mayank
+-   CopyRight By Mayank
+-   CSS : css/style
+*/
+@import "responsive.css";
+/*
+	-------------------
+	| import form css |
+	-------------------
+*/
+*
+{
+	margin:0;
+	padding: 0;
+	user-select: none;
+	text-decoration: none;
+	font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	color:#000;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+::placeholder
+{
+	font-size: 1rem;
+	color:var(--dark);
+}
+:root
+{
+	--primary:#6495ed;
+	--secondary:#4169e1;
+	--gray:#b0c4de;
+	--dark:#343a40;
+	--light:#f8f9fa;
+	--black:#000;
+	--white:#fff;
+}
+@keyframes popup
+{
+	20%{
+		content: "E";
+	}
+	30%{
+		content: "Ev";
+	}
+	40%{
+		content: "Evi";
+	}
+	50%{
+		content: "Evil";
+	}
+	60%{
+		content: "Evil-";
+	}
+	70%{
+		content: "Evil-C";
+	}
+	80%{
+		content: "Evil-Co";
+	}
+	90%{
+		content: "Evil-Cor";
+	}
+	100%{
+		content: "Evil-Corp";
+	}
+}
+/*
+	HTML CSS ---
+*/
+html{
+	scroll-snap-type: y mandatory ;
+}
+body
+{
+	overflow: hidden;
+	overflow-y: auto;
+}
+/* #header,#about, #read, #footer
+{
+	scroll-snap-align: start;
+} */
+
+#main
+{
+	width: 100%;
+}
+/*
+	HEADER CSS ---
+*/
+#header
+{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	background:var(--primary);
+}
+#nav a
+{
+	display: inline-block;
+	padding: 1rem;
+	font-size: 1rem;
+}
+#nav a:hover
+{
+	color:var(--light) !important;
+	background: var(--secondary);
+}
+#brand
+{
+	margin-right: 2rem;
+	width: 35px;
+	height:auto;
+	object-fit: contain;
+}
+/*
+	HOME CSS ---
+*/
+#home
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	min-height: auto;
+	background: var(--light);
+}
+#info
+{
+	padding: 10vh 1rem 10vh 2rem;
+}
+#side_poster
+{
+	background:rgba(176, 196, 222,0.5) url(../data/pic/bg.jpg) no-repeat;
+	background-size: cover;
+	background-blend-mode:overlay;
+	clip-path: polygon(78% 21%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 26% 85%, 39% 52%, 66% 49%);
+}
+.flex
+{
+	display: flex;
+	align-items: center;
+}
+#logo
+{
+	width: 90px;
+	object-fit: contain;
+}
+strong
+{
+	display: block;
+	padding: 1rem;
+	font-weight: 400;
+	line-height: 2rem;
+	color: var(--dark);
+}
+#home a[class='btn']
+{
+	margin:1rem;
+}
+/*
+	ABOUT CSS ---
+*/
+#about
+{
+	padding: 2rem;
+}
+p
+{
+	padding: 1rem;
+	font-weight: 400;
+	line-height: 2rem;
+	color: var(--dark);
+}
+/*
+	BENIFITES CSS ---
+*/
+#benifits
+{
+	padding: 3rem 3rem;
+}
+.serve
+{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	/* clip-path: polygon(30% 0%, 60% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
+}
+.count
+{
+	font-size: 5rem;
+	color: var(--gray);
+}
+.service
+{
+	font-weight: 100;
+	font-size: 2rem;
+	color: var(--dark);
+}
+/*
+	FOOTER CSS ---
+*/
+#footer
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 2rem;
+	background:var(--gray);
+}
+#copyright,
+#developer
+{
+	padding: 1rem;
+	color:var(--dark);
+}
+#developer a
+{
+	font-weight: bold;
+	color:var(--dark);
+}
+/*
+	LOGIN CSS ---
+*/
+#login
+{
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	place-content: center;
+}
+#login form
+{
+	width: 400px;
+	padding: 1rem;
+	border:1px solid var(--gray);
+	border-radius: 5px;
+}
+#login .fld
+{
+	width: 100%;
+}
+#login .btn
+{
+	margin: 1rem;
+}
+#login .copy
+{
+    padding: 2rem 1rem;
+}
+/*
+    JOIN CSS ---
+*/
+#join
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    min-height: 100vh;
+}
+#aside
+{
+    display: block;
+    padding:1rem;
+    background:var(--gray);
+}
+#aside_logo
+{
+    width: 70%;
+    margin: 10%;
+	text-align: center;
+    border:2px solid var(--dark);
+    border-radius: 1rem 1rem 0 1rem;
+}
+.copy
+{
+    display: block;
+    padding: 2rem 0;
+    color: var(--dark);
+}
+/*
+	FORM CSS --
+*/
+#form_container
+{
+    display: grid;
+}
+form
+{
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	/* background: var(--light); */
+}
+#welcome
+{
+	text-align: center;
+}
+/*
+	HEADING CSS ---
+*/
+h1
+{
+	padding:1rem;
+	font-size: 3rem;
+	color: var(--primary);
+}
+h1::after
+{
+	content : "Evil-Corp";
+	animation: popup 1s linear 3;
+}
+h2
+{
+	padding: 1rem;
+	font-weight: 500;
+	font-size: 2rem;
+	color:var(--black);
+}
+h3
+{
+	padding: 1rem;
+	font-weight: normal;
+	font-size: 1.5rem;
+	color:var(--gray);
+}
+h4
+{
+	padding: 2rem 1rem;
+	font-weight: 300;
+	font-size: 2rem;
+	color: var(--dark);
+}
+/*
+    LABEL CSS ---
+*/
+label
+{
+    display: block;
+    padding: 1rem 0;
+    color: var(--dark);
+}
+label[for]
+{
+    display: inline-block ;
+}
+form div
+{
+    padding: 1rem;
+}
+/*
+    FIELD CSS ---
+*/
+.fld
+{
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 2px solid var(--gray);
+    border-radius: 5px;
+}
+.fld:focus
+{
+    border-color: var(--primary);
+}
+select
+{
+	min-width: 300px;
+}
+/*
+    BUTTON CSS ---
+*/
+.btn
+{
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: var(--primary);
+    box-shadow: 2px 2px 10px var(--dark);
+}
+.btn:hover
+{
+    color: var(--light);
+    background: var(--secondary);
+}
+/*
+    ASIDE BUTTON CSS ---
+*/
+.aside_btn
+{
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    color:var(--black);
+    background: transparent;
+    border-left: 2px solid var(--secondary);
+}
+.aside_btn::before
+{
+    content: "";
+    margin-left: -27px;
+    margin-right:1rem;
+    padding:1px 9px;
+    border-radius: 10px;
+    background: var(--gray);
+    border: 2px solid var(--secondary);
+}
+.aside_btn:hover
+{
+    color:var(--light);
+    background: var(--primary);
+}
+.btn_active
+{
+    color:var(--light) !important;
+    background:var(--secondary) !important;
+}
+.submit_btn
+{
+	margin: 1rem;
+}
+/* ::file-selector-button */
+.file_btn::-webkit-file-upload-button
+{
+	padding: 1rem;
+	color: var(--black);
+	background: var(--primary);
+	border: none;
+}
+.file_btn::-webkit-file-upload-button:hover
+{
+	background: var(--secondary);
+}
+/*
+	THE END ==========================
+*/

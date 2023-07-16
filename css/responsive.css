@@ -1,0 +1,67 @@
+/*
+-   website 6 "Employeement"
+-   Designed & Developed by Mayank
+-   CopyRight By Mayank
+-   CSS : css/responsive
+*/
+
+/*
+    1200PX SCREEN CSS ---
+*/
+@media screen and (max-width:1200px)
+{
+     /*  */
+}
+/*
+    992PX SCREEN CSS ---
+*/
+@media screen and (max-width:992px)
+{
+    /* JOIN */
+    #join
+    {
+        grid-template-columns: 30% 60%;
+    }
+}
+/*
+    768PX SCREEN CSS ---
+*/
+@media screen and (max-width:768px)
+{
+    /* HOME */
+    #home
+    {
+        grid-template-columns: 100% !important;
+        grid-template-rows: 3fr 1fr !important;
+    }
+    /* JOIN */
+    #join
+    {
+        grid-template-columns: 100% !important;
+    }
+    #aside
+    {
+        display: none !important;
+    }
+}
+/*
+    576PX SCREEN CSS ---
+*/
+@media screen and (max-width:576px)
+{
+    /*  */
+}
+/*
+    400PX SCREEN CSS ---
+*/
+@media screen and (max-width:400px)
+{
+    /* HOME */
+    #info
+    {
+        padding: 3rem 1rem !important;
+    }
+}
+/*
+    the end ==========================
+*/
