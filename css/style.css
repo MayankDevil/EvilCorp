@@ -78,11 +78,15 @@ body
 	overflow: hidden;
 	overflow-y: auto;
 }
+.container
+{
+	max-width: 1000px;
+	margin: auto;
+}
 /* #header,#about, #read, #footer
 {
 	scroll-snap-align: start;
 } */
-
 #main
 {
 	width: 100%;
@@ -182,20 +186,29 @@ p
 }
 .serve
 {
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr 3fr;
+	width:100%;
+	height: 200px;
+	display:flex;
+	justify-content:space-between;
 	/* clip-path: polygon(30% 0%, 60% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
 }
 .count
 {
+     padding:1rem;
 	font-size: 5rem;
 	color: var(--gray);
+	background:var(--light);
+}
+.service:nth-child(even)
+{
+     text-align:right;
 }
 .service
 {
-	font-weight: 100;
-	font-size: 2rem;
+     width:80%;
+	font-weight: 350;
+	font-size: 1.5rem;
+	line-height:2.5rem;
 	color: var(--dark);
 }
 /*
