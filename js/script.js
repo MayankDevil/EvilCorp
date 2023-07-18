@@ -16,7 +16,23 @@ try
 	
 		console.log(` i am working `)
 	}
+	
+	document.getElementById("main")
 
+	window.addEventListener('scroll',function()
+	{
+		let up_btn = document.getElementById("up_btn");
+		
+		if (window.scrollY > 150)
+		{
+			alert('done')
+			up_btn.style.display = "none";
+		}
+		else
+		{
+			up_btn.style.display = "inline-block";
+		}
+	})
 }
 catch(error)
 {
