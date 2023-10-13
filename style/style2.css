@@ -1,0 +1,57 @@
+/*
+*	website 7 Evil-Corp
+*	All Right Reserved Desgined by Mayank
+*	CSS style/style2
+*/
+a[href='#']
+{
+    color:#eee;
+	border-bottom: 5px solid #fff;
+}
+#form
+{
+    background:#fff;
+    width: 70%;
+    margin:10vh auto;
+    padding: 20px;
+}
+fieldset
+{
+	border: 5px double cornflowerblue;
+}
+legend
+{
+	font-weight: bold;
+	padding:20px;
+}
+.fld
+{
+    width:40%;
+    padding: 10px;
+    border-bottom: 1px solid cornflowerblue;
+}
+.btn
+{
+	color: #eee !important;
+	padding: 15px 30px;
+	background:cornflowerblue;
+}
+.btn:hover
+{
+	background:#3e72d1;
+	border:none;
+}
+
+i
+{
+    color:#333;
+}
+label:active
+{
+    background:cornflowerblue;
+    padding:5px;
+}
+.chk
+{
+    background: #000;
+}
