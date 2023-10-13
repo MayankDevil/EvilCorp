@@ -1,14 +1,10 @@
-# website 6
+# website 6 / version-2.0
 
-- Name : "Evil-Corp"
+- Name : "Employeement"
 
-- Description : "Evil-Corp Employeementation website for unemployee people"
+- Version : 2.0
 
-- Version : 6.3
-
-- Update : 01-07-2023
-
-- Status : Rest
+- Status : COMPLETED
 
 - Responsive : False
 
@@ -16,33 +12,13 @@
 
 - Thanks : { VSCode | GitHub | Unplash | GIMP }
 
-- Work : Self
+- Design | Developer : { Mayank }
 
-- Design : { Mayank }
+- Download : https://github.com/MayankDevil/website-6/archive/refs/heads/version-2.0.zip
 
-- Developer : { Mayank }
-
-- CopyRight : { Evil-Corp | Mayank }
-
-- URL : https://mayankdevil.github.io/website-6/
-
-- Clone : https://github.com/MayankDevil/website-6.git
-
-- Download : https://github.com/MayankDevil/website-6/archive/refs/heads/main.zip
-
----
-
+<!-- -
 ### Home Page
 
 ![Alt text]( ./data/Employeement "HomePage")
-
-### Not Responsive
-
-**only max than 900PX screen**
-
-### Theme Mode
-
-_Slateblue  main colour_
-
-
+-->
 
