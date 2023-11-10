@@ -2,7 +2,7 @@
 
 - Name : "Evil-Corp"
 
-- Description : "Evil-Corp Employeementation website for unemployee people"
+-Description : "I am in the process of crafting an innovative website, aptly named 'Evolving Employment,' where the essence of the company and its mission will be elegantly presented. This digital platform will not only serve as a window into the organization but will also offer a seamless and user-friendly experience for potential candidates through a carefully designed joining form. Embracing a commitment to transparency and professionalism, 'Evolving Employment' seeks to redefine the online presence of our company, fostering a connection with individuals who share our vision for growth and excellence in the realm of employment."
 
 - Version : 6.3
 
