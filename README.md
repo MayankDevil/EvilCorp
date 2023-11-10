@@ -41,8 +41,7 @@
 **only max than 900PX screen**
 
 ### Theme Mode
-
-_Slateblue  main colour_
+_"This website features a sleek Slate Blue theme with hints of White and subtle darkness for a modern and engaging look."_
 
 
 
