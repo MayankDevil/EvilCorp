@@ -38,7 +38,7 @@
 
 ### Not Responsive
 
-**only max than 900PX screen**
+"With a thoughtful design approach, this website is intentionally non-responsive, optimized for **screens up to 900 px** wide. This decision aims for a focused user experience, aligning with our commitment to simplicity and accessibility."
 
 ### Theme Mode
 _"This website features a sleek Slate Blue theme with hints of White and subtle darkness for a modern and engaging look."_
