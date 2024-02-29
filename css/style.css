@@ -269,6 +269,25 @@ p
 {
     padding: 2rem 1rem;
 }
+#validate
+{
+	width: 90%;
+	margin: 1rem auto;
+	border-radius: 5px;
+}
+.isValid
+{
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+.isUnvalid
+{
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+	border-radius: 5px;
+}
 /*
     JOIN CSS ---
 */
