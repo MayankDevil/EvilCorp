@@ -1,5 +1,5 @@
 /*
--   website 6 "Employeement"
+-   website 6 "ECorp Employment"
 -   Designed & Developed by Mayank
 -   CopyRight By Mayank
 -   CSS : css/responsive
@@ -16,29 +16,39 @@
 */
 @media screen and (max-width:992px)
 {
-	/* main */
-	#main
-	{
-		display:none;
-	}
+	
 }
 /*
     768PX SCREEN CSS ---
 */
 @media screen and (max-width:768px)
 {
-     /*
-	     LOGIN CSS ---
-     */
-     #login
-     {
-          display:block !important;
-     }
-     #login form
-     {
-	     width: 90% !important;
-	     margin: 2rem auto;
-     }
+    /*
+        main
+    */
+	#main
+	{
+		display:none;
+	}
+    /*
+        LOGIN CSS ---
+    */
+    #login
+    {
+        display:block !important;
+    }
+    #login form
+    {
+        width: 90% !important;
+        margin: 2rem auto;
+    }
+    /*
+        database css ---
+    */
+    #database li
+    {
+        flex-flow: column wrap;
+    }
 }
 /*
     576PX SCREEN CSS ---

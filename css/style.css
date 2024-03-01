@@ -1,5 +1,5 @@
 /*
--   website 6 "Employeement"
+-   website 6 "ECorp Employment"
 -   Designed & Developed by Mayank
 -   CopyRight By Mayank
 -   CSS : css/style
@@ -113,8 +113,9 @@ body
 }
 #nav a:hover
 {
+	font-weight: bold;
 	color:var(--light) !important;
-	background: var(--secondary);
+	/* background: var(--secondary); */
 }
 #brand
 {
@@ -289,6 +290,28 @@ p
 	border-radius: 5px;
 }
 /*
+	Data list css ---
+*/
+#database
+{
+	margin: 1rem 2rem;
+}
+#database li
+{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 10px 1rem;
+	color: var(--dark);
+	border-left: 1px solid var(--gray);
+}
+#database li span
+{
+	padding:5px;
+	font-weight: bold;
+}
+/*
     JOIN CSS ---
 */
 #join
@@ -341,7 +364,7 @@ form
 h1
 {
 	padding:1rem;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: var(--primary);
 }
 h1::after
