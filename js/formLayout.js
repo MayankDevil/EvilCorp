@@ -1,5 +1,5 @@
 /*
--   website 6 "Employeement"
+-   website 6 "ECorp Employment"
 -   Designed & Developed by Mayank
 -   CopyRight By Mayank
 -   JavaScript : js/formLayout
@@ -26,7 +26,7 @@ try
                     
                     <img src="data/pic/logo.png" alt="brand_logo" id="logo">
 
-                    <h4> Employeement Form Read Before Fill </h4>
+                    <h4> Employment Form Read Before Fill </h4>
 
                     <p> Welcome Friends, We are ensure you it is neccessary information that important to now in our Knowlegde. It just employee information not extra. Hope you are corpurate with us give ture information. </p>
 

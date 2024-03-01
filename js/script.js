@@ -1,5 +1,5 @@
 /*
--   website 6 "Employeement"
+-   website 6 "ECorp Employment"
 -   Designed & Developed by Mayank
 -   CopyRight By Mayank
 -   JavaScript : js/script
